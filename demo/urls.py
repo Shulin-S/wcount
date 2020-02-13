@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', function.home),#符合x网址，找相应的url
     path('count/', function.count),
+    path('about/', function.about),
 ]

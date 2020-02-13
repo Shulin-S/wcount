@@ -22,3 +22,7 @@ def count(request):
                    'text':user_text,
                    'dict':word_dict,
                    'sorted':sorted_dict})#render将字典传递给网页
+
+
+def about(request):
+    return render(request, 'about.html')
